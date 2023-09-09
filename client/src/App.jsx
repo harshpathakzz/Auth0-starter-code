@@ -9,7 +9,7 @@ function App() {
   const userJSON = JSON.stringify(user, null, 2);
 
   // Log user JSON to the console
-  console.log(userJSON);
+  console.log(user);
 
   return (
     <div className="App">
